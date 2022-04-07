@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel server watch-sass watch-js",
     "build": "npm-run-all build-sass prefix-css build-js",
     "watch-sass": "sass src/scss/main.scss dist/styles/main.css -w",
-    "build-sass": "sass src/scss/main.scss dist/styles/main.css --output-style compressed",
+    "build-sass": "sass src/scss/main.scss dist/styles/main.css --style compressed",
     "prefix-css": "postcss --use autoprefixer -b 'last 10 versions' dist/styles/main.css -o dist/styles/main.css",
     "server": "live-server",
     "watch-js": "babel src/js/**/*.js -w -o dist/scripts/app.js",
