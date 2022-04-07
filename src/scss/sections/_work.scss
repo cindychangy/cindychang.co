@@ -137,106 +137,106 @@
 }
 
 //client hovers
-.client--1:hover~.work__art .shape--1 {
-  @include screen-xl {
-    background: url('/dist/img/domino-cover.jpg') no-repeat;
-    background-size: 480px;
-    background-position: bottom left;
-  }
-}
-.client--2:hover~.work__art .shape--3 {
-  @include screen-xl {
-    background: url('/dist/img/spark-cover.jpg') no-repeat;
-    background-size: 335px;
-    background-position: bottom right;
-  }
-}
-.client--3:hover~.work__art .shape--2 {
-  @include screen-xl {
-    background: url('/dist/img/hue-cover.jpg') no-repeat;
-    background-size: 420px;
-    background-position: bottom right;
-  }
-}
-.client--4:hover~.work__art .shape--3 {
-  @include screen-xl {
-    background: url('/dist/img/apex-cover.jpg') no-repeat;
-    background-size: 330px;
-    background-position: top right;
-  }
-}
-.client--5:hover~.work__art .shape--1 {
-  @include screen-xl {
-    background: url('/dist/img/katie-cover.jpg') no-repeat;
-    background-size: 470px;
-    background-position: bottom right;
-  }
-}
-.client--6:hover~.work__art .shape--2 {
-  @include screen-xl {
-    background: url('/dist/img/skate-cover.jpg') no-repeat;
-    background-size: 300px;
-    background-position: bottom;
-  }
-}
+// .client--1:hover~.work__art .shape--1 {
+//   @include screen-xl {
+//     background: url('/dist/img/domino-cover.jpg') no-repeat;
+//     background-size: 480px;
+//     background-position: bottom left;
+//   }
+// }
+// .client--2:hover~.work__art .shape--3 {
+//   @include screen-xl {
+//     background: url('/dist/img/spark-cover.jpg') no-repeat;
+//     background-size: 335px;
+//     background-position: bottom right;
+//   }
+// }
+// .client--3:hover~.work__art .shape--2 {
+//   @include screen-xl {
+//     background: url('/dist/img/hue-cover.jpg') no-repeat;
+//     background-size: 420px;
+//     background-position: bottom right;
+//   }
+// }
+// .client--4:hover~.work__art .shape--3 {
+//   @include screen-xl {
+//     background: url('/dist/img/apex-cover.jpg') no-repeat;
+//     background-size: 330px;
+//     background-position: top right;
+//   }
+// }
+// .client--5:hover~.work__art .shape--1 {
+//   @include screen-xl {
+//     background: url('/dist/img/katie-cover.jpg') no-repeat;
+//     background-size: 470px;
+//     background-position: bottom right;
+//   }
+// }
+// .client--6:hover~.work__art .shape--2 {
+//   @include screen-xl {
+//     background: url('/dist/img/skate-cover.jpg') no-repeat;
+//     background-size: 300px;
+//     background-position: bottom;
+//   }
+// }
 
-.client--5:hover~.work__art,
-.client--1:hover~.work__art {
+// .client--5:hover~.work__art,
+// .client--1:hover~.work__art {
 
-  @include screen-xl {
-    .shape--1 {
-      z-index: 99;
-      transform: scale(1.05);
-      overflow: hidden;
-    }
+//   @include screen-xl {
+//     .shape--1 {
+//       z-index: 99;
+//       transform: scale(1.05);
+//       overflow: hidden;
+//     }
 
-    .shape--2 {
-      background-color: var(--gray-light-1);
-    }
+//     .shape--2 {
+//       background-color: var(--gray-light-1);
+//     }
 
-    .shape--3 {
-      background-color: var(--gray-light-2);
-    }
-  }
-}
+//     .shape--3 {
+//       background-color: var(--gray-light-2);
+//     }
+//   }
+// }
 
-.client--2:hover~.work__art,
-.client--4:hover~.work__art {
+// .client--2:hover~.work__art,
+// .client--4:hover~.work__art {
 
-  @include screen-xl {
-    .shape--3 {
-      z-index: 99;
-      transform: scale(1.05);
-    }
+//   @include screen-xl {
+//     .shape--3 {
+//       z-index: 99;
+//       transform: scale(1.05);
+//     }
 
-    .shape--1 {
-      background-color: var(--gray-light-1);
-    }
+//     .shape--1 {
+//       background-color: var(--gray-light-1);
+//     }
 
-    .shape--2 {
-      background-color: var(--gray-light-2);
-    }
-  }
-}
+//     .shape--2 {
+//       background-color: var(--gray-light-2);
+//     }
+//   }
+// }
 
 
-.client--3:hover~.work__art,
-.client--6:hover~.work__art {
-  @include screen-xl {
-    .shape--2 {
-      background-size: 220px;
-      transform: scale(1.05) rotate(140deg);
-      background-size: cover;
-      z-index: 99;
-    }
+// .client--3:hover~.work__art,
+// .client--6:hover~.work__art {
+//   @include screen-xl {
+//     .shape--2 {
+//       background-size: 220px;
+//       transform: scale(1.05) rotate(140deg);
+//       background-size: cover;
+//       z-index: 99;
+//     }
 
-    .shape--1 {
-      background-color: var(--gray-light-1);
-    }
+//     .shape--1 {
+//       background-color: var(--gray-light-1);
+//     }
 
-    .shape--3 {
-      background-color: var(--gray-light-2);
-    }
-  }
-}
+//     .shape--3 {
+//       background-color: var(--gray-light-2);
+//     }
+//   }
+// }
 

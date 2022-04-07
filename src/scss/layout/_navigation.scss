@@ -50,6 +50,9 @@
 
   &--alt {
     position: fixed;
+    -moz-box-shadow: 0 -8px 19px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 -8px 19px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 -8px 19px 0 rgb(0 0 0 / 5%);
   }
 }
 
