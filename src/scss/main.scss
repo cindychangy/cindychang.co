@@ -1,19 +1,9 @@
 @import 'abstracts/variables';
-@import 'abstracts/functions';
 @import 'abstracts/mixins';
 
 @import 'base/base';
 @import 'base/typography';
 @import 'base/animations';
 
-@import 'components/buttons';
-
-@import 'layout/grid';
-@import 'layout/header';
+@import 'layout/main';
 @import 'layout/navigation';
-@import 'layout/footer';
-
-@import 'sections/work';
-@import 'sections/projects';
-@import 'sections/contact';
-@import 'sections/bio';

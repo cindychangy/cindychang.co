@@ -1,0 +1,25 @@
+.intro-container {
+  width: 100%;
+  padding: 25px;
+
+  @include screen-md {
+    width: 94ch;
+    padding: 0;
+    margin: 50px auto 0 auto;
+  }
+
+ .text-stamp {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: var(--titleFont);
+
+  @include screen-md {
+    font-size: 5rem;
+  }
+ }
+
+  .emoji {
+    font-size: 4rem;
+  }
+}

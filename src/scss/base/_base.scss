@@ -23,10 +23,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-}
-
  ::selection {
    background: var(--pink);
    color: #fff;
@@ -39,4 +35,9 @@ a {
 
  a {
    color: var(--black);
+
+   &:hover {
+    color: var(--teal);
+    transition: all .4s;
+   }
  }

@@ -36,54 +36,6 @@
       }
     }
   }
-
-  &__back:hover {
-    svg {
-      transition: all .3s;
-
-      &:hover {
-        transform: translateX(-6px);
-        opacity: 0.4;
-      }
-    }
-  }
-
-  &--alt {
-    position: fixed;
-    -moz-box-shadow: 0 -8px 19px 0 rgba(0,0,0,.2);
-    -webkit-box-shadow: 0 -8px 19px 0 rgb(0 0 0 / 5%);
-    box-shadow: 0 -8px 19px 0 rgb(0 0 0 / 5%);
-  }
-}
-
-.nav {
-  list-style: none;
-  font-size: 15px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  position: relative;
-  z-index: 200;
-
-  li {
-    display: block;
-
-    @include screen-md {
-      display: inline-block;
-      margin-right: 2.5rem;
-    }
-
-    a:link,
-    a:visited {
-      color: var(--black);
-      display: inline-block;
-      overflow: hidden;
-
-      @include screen-lg {
-        @include hover-underline;
-      }
-    }
-  }
 }
 
 .logo__art #zigzag {
