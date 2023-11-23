@@ -1,4 +1,82 @@
-:root {
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+	font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #1db2cc;
+  transition: all .4s;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: var(--titleFont);
+  margin-block-end: 20px;
+}
+
+p {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+.emoji {
+  font-size: 6rem;
+}
+
+.container {
+  margin: auto;
+  margin-block-start: 70px;
+  max-width: 620px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    max-width: 100%;
+    margin-block-start: 40px;
+    margin-inline: 30px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .emoji {
+    font-size: 4.5rem;
+  }
+}
+
+
+/* :root {
   --purple: #2a2f81;
   --black: #232431;
   --pink: #ff059d;
@@ -756,6 +834,6 @@ p {
 .close {
   opacity: 0 !important;
   visibility: hidden !important;
-}
+} */
 
 /*# sourceMappingURL=main.css.map */
