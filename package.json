@@ -4,7 +4,7 @@
   "description": "This is the website for the portfolio of Cindy Chang / cindychang.co",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel server",
+    "start": "npm-run-all --parallel server watch-sass watch-js",
     "build": "npm-run-all build-sass prefix-css build-js",
     "watch-sass": "sass src/scss/main.scss dist/styles/main.css -w",
     "build-sass": "sass src/scss/main.scss dist/styles/main.css --style compressed",
