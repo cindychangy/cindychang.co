@@ -63,7 +63,7 @@ p {
 }
 @media (min-width: 768px) {
   p {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -81,7 +81,7 @@ p {
 }
 @media (min-width: 768px) {
   .intro-container {
-    width: 94ch;
+    width: 87ch;
     padding: 0;
     margin: 50px auto 0 auto;
   }
